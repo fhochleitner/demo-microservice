@@ -9,14 +9,13 @@
       "version": "3.8.3",
       "configuration": {
         "goals": "clean install",
+        "pom": "pom.xml",
         "options": ""
       }
     },
     "static-code-analysis": {
       "active": "true",
-      "type": "sonarqube",
-      "configuration": {
-      }
+      "type": "sonarqube"
     },
     "integrationtest": {
       "active": "active",
