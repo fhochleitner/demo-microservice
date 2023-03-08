@@ -31,7 +31,7 @@
   },
   "image": {
     "registry": "ghcr.io",
-    "repository": "demo-microservice",
+    "repository": "gepaplexx",
     "containerfile": "Containerfile"
   },
   "vulnerability-scan": {
