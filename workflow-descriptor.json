@@ -24,8 +24,7 @@
       "configuration": {
         "port": "8080",
         "collection": "postman.json",
-        "collection-path": "postman",
-        "env-var": ""
+        "collection-path": "postman"
       }
     }
   },
