@@ -38,11 +38,11 @@
     "active": "true",
     "type": "trivy",
     "configuration": {
+      "report-severity": "LOW,MEDIUM,HIGH,CRITICAL",
       "fail": {
         "active": "true",
         "severity": "CRITICAL"
-      },
-      "extra-args": ""
+      }
     }
   }
 }
