@@ -18,7 +18,7 @@
       "active": "true",
       "type": "sonarqube"
     },
-    "integrationtest": {
+    "integration-test": {
       "active": "active",
       "type": "newman",
       "configuration": {
