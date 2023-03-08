@@ -19,7 +19,7 @@
       "type": "sonarqube"
     },
     "integration-test": {
-      "active": "active",
+      "active": "true",
       "type": "newman",
       "configuration": {
         "port": "8080",
