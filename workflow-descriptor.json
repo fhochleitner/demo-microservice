@@ -6,7 +6,7 @@
     },
     "type": {
       "name": "maven",
-      "version": "3.8.3",
+      "version": "3.8.6",
       "configuration": {
         "args": "clean install",
         "config": "pom.xml",
