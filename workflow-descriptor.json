@@ -16,15 +16,19 @@
     },
     "static-code-analysis": {
       "active": "true",
-      "type": "sonarqube"
+      "type": {
+        "name": "sonarqube"
+      }
     },
     "integration-test": {
       "active": "true",
-      "type": "newman",
-      "configuration": {
-        "port": "8080",
-        "collection": "postman.json",
-        "collection-path": "postman"
+      "type": {
+        "name": "newman",
+        "configuration": {
+          "port": "8080",
+          "collection": "postman.json",
+          "collection-path": "postman"
+        }
       }
     }
   },
@@ -35,12 +39,14 @@
   },
   "vulnerability-scan": {
     "active": "true",
-    "type": "trivy",
-    "configuration": {
-      "report-severity": "LOW,MEDIUM,HIGH,CRITICAL",
-      "fail": {
-        "active": "true",
-        "severity": "CRITICAL"
+    "type": {
+      "name": "trivy",
+      "configuration": {
+        "report-severity": "LOW,MEDIUM,HIGH,CRITICAL",
+        "fail": {
+          "active": "true",
+          "severity": "CRITICAL"
+        }
       }
     }
   }
