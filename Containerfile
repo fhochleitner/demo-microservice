@@ -1,4 +1,4 @@
-FROM openjdk:11.0-jre-slim
+FROM quay.io/openjdk:11.0-jre-slim
 
 RUN apt update -y && apt upgrade -y libc6 libpcre3
 
