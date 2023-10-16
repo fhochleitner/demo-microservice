@@ -16,6 +16,6 @@ public class ReadinessCheck implements HealthCheck {
 
     @Override
     public HealthCheckResponse call() {
-        return HealthCheckResponse.named(state.getServiceName()).status(true).build();
+        return HealthCheckResponse.named(state.getServiceName()).status(state.getReadiness()).build();
     }
 }
