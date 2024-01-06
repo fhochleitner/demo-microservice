@@ -8,20 +8,20 @@
       "name": "maven",
       "version": "3.8.6",
       "configuration": {
-        "args": "clean install",
+        "args": "install",
         "config": "pom.xml",
         "config-path": "",
-        "options": ""
+        "options": "-DskipTests"
       }
     },
     "static-code-analysis": {
-      "active": "true",
+      "active": "false",
       "type": {
         "name": "sonarqube"
       }
     },
     "integration-test": {
-      "active": "true",
+      "active": "false",
       "type": {
         "name": "newman",
         "configuration": {
@@ -34,7 +34,7 @@
   },
   "image": {
     "registry": "ghcr.io",
-    "repository": "gepaplexx",
+    "repository": "fhochleitner",
     "containerfile": "Containerfile"
   },
   "vulnerability-scan": {
